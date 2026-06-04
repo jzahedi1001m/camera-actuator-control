@@ -1,0 +1,21 @@
+# Ignore temporary Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore computer-specific settings
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore test and environment files
+.env
+.venv
+env/
+venv/
+.pytest_cache/
+.coverage
