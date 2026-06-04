@@ -69,3 +69,5 @@ When executed, the system tracks a 40mm step command on the autofocus plane unde
 * Top Subplot (Autofocus Performance): Demonstrates how the 2D Kalman filter uses dead reckoning to accurately track the true lens position across the sensor's 6ms blind window, preventing loop oscillations.
 * Middle Subplot (Active OIS Attenuation): Contrasts the raw input hand tremor against the residual optical misalignment, showcasing wideband stabilization.
 * Bottom Subplot (H-Bridge Commits): Traces the voltage commands sent to the actuators, illustrating anti-windup clamping during sudden movements and smooth deadband holding once the target is acquired.
+
+![Simulation Telemetry Performance Plot](simulation_plot.png)
