@@ -52,7 +52,6 @@ The tracking loops implement an industrial PID design featuring:
 ### Installation
 1. Clone this repository to your machine:
    git clone https://github.com/jzahedi1001m/camera-actuator-control.git
-   cd camera-actuator-control
 
 2. Install the required execution and plotting dependencies:
    pip install -r requirements.txt
